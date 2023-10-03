@@ -1,0 +1,177 @@
+/* Estilos generales para el navbar */
+header {
+    background-color: #eedede; /* Color de fondo del navbar */
+    padding: 10px 20px; /* Espacio interno del navbar */
+    display: flex;
+    justify-content: space-between; /* Coloca el logo y los botones en lados opuestos */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+/* Estilos para el logo 
+.logo img {
+    max-width: 50px; /* Tamaño máximo del logo 
+}*/
+
+/*........................................................................*/
+/*........................................................................*/
+
+/* Estilos para los botones */
+.botones {
+    display: flex;
+    /* Alinea los botones en una fila horizontal */
+}
+
+/* Estilos para los botones individuales (puedes personalizarlos según tus preferencias) */
+.botones button {
+    background-color: #555; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px; /* Espacio entre botones (puedes ajustar esto) */
+    cursor: pointer;
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+/* Estilos para el hover (cambio de color al pasar el mouse) */
+.botones button:hover {
+    background-color: #777;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.encabezado {
+    display: flex;
+    justify-content: center;
+    background-color: #96B6C5;
+}*/
+
+.imagenLogo{
+  display: flex;
+}
+.logo{
+    flex-direction: column; 
+    /* width: 80px; */
+    /* height: 80px; */
+    /* flex: 1; */
+    margin-inline-start: 10%;
+    /* text-align: left;  */
+}
+
+.nombrePag{
+    flex-direction: column;  
+    /* text-align: center;   */
+
+    margin: 0px;
+    color: #28d2d8; 
+    color: white;
+    font-family: 'Barriecito', cursive;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Barra de navegación */
+.barraNav{
+    position: fixed;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    background-color: #f7d1d1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 0;
+}
+
+.nav-button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #777;
+}
+
+.carrusel{
+    margin-top: 10%;
+}
+
+.secciones{
+    display: flex;
+    background-color: #96B6C5;
+    flex-direction: column;
+}
+
+.tarjetas{
+    flex: 1;
+    margin: 1;
+}
+
+.card{
+    margin: 10px;
+}
+
+.barrarLat{
+    flex: 1;
+}
+
+.titulo-seccion1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    text-align: center;
+    font-family: 'Unna', serif;
+}
+
+.seccion1{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 5% 5% 5%;
+    
+}
+
+.imgRedondas{
+    border-radius: 50%; 
+}
+
+.text-seccion1{
+    text-align: center;
+}
+
+.tarjetas-seccion1{
+    margin: 2% 5% 5% 5%;
+}
+
+
+
