@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="styleForm.css">
-    <title>Document</title>
+    <title>Formulario php</title>
 </head>
 <body>
     <div class="login">
@@ -22,6 +22,25 @@
             <button type="submit">Iniciar Sesión</button>
         </form>
     </div>
+
+    
+    <?php
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        // Recupera los datos del formulario
+        $username = $_POST["username"];
+        $password = $_POST["password"];
+    
+        if ($username === "usuario" && $password === "contraseña") {
+            echo "<p>Inicio de sesión exitoso. ¡Bienvenido!</p>";
+        } else {
+            echo "<p>Error: Credenciales incorrectas. Inténtalo de nuevo.</p>";
+        }
+    }
+    ?>
     <script src="formulario.js"></script>
 </body>
 </html>
+
+
+
+
